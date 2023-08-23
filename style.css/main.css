@@ -1,3 +1,42 @@
+:root {
+    --color-tittle: #14d9c4;
+    --color-parraf: #54585a;
+    --color-background: rgba(184, 184, 185, 0.1);
+}
+
+.equipo {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .team {
-    color: #14d9c4;
+    color: var(--color-tittle);
+    font-family: "Rubik";
+    font-size: 24px;
+    text-align: center;
+}
+
+.presentacion-global {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: var(--color-parraf);
+    text-align: center;
+}
+
+.cuadrado {
+    width: 1.875rem;
+    height: 1.875rem;
+    z-index: 100;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%, 100%) rotate(45deg);
+    padding-bottom: 0%;
+    background-color: white;
+}
+
+.puntos {
+    background-color: var(--color-background);
 }
