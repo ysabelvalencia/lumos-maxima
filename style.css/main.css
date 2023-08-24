@@ -2,8 +2,8 @@
     --color-tittle: #14d9c4;
     --color-parraf: #54585a;
     --color-background: rgba(184, 184, 185, 0.1);
-    --font-family-Rubik: "Rubik";
-    --font-family-OpenSans: "OpenSans";
+    --font-family-Rubik: 'Rubik', sans-serif;
+    --font-family-OpenSans: 'Open Sans', sans-serif;
 }
 
 html {
@@ -13,36 +13,67 @@ html {
 .header {
     width: 100%;
     height: 42.1rem;
-    display: flex;
-    flex-direction: column;
-    background-image: url("../imagenes/companero-empresa-choca-cinco\ \(1\).jpg");
+    /* display: block; */
+    background-image: url("https://images.pexels.com/photos/5706206/pexels-photo-5706206.jpeg?auto=compress&cs=tinysrgb&w=1600") ;
+    background-size: cover;
 }
-
-.div-header h1 {
-    background-color: #099d8d;
+.div-header h1{
+    background-color: #099D8D;
     height: 6rem;
-    font-family: var(--font-family);
+    width: 100%;
+    opacity: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index:1;
+    top:1;
+    font-family: var(--font-family-Rubik);
     font-size: 1.6rem;
     color: white;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight:500;
 }
-
 .nav-header {
-    background-color: aqua;
+    width: 100%;
     height: 4.5rem;
-    font-family: var(--font-family);
     font-size: 1.5rem;
     color: white;
     text-transform: uppercase;
     font-weight: 500;
     line-height: 1.88;
+    position: fixed;
+    font-family: var(--font-family-Rubik);
+    background-color: #14D9C4;
+    width: 100vw;
+    justify-content: center;
+    z-index:1;
+    top:10%;
+    opacity: 95%;
+    padding:1.08rem;
 }
 
-.div-lema {
-    border: 2px solid black;
-   
+.ul-header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.header-box-item {
+    list-style: none;
+}
+.div-lema {
+    background-color: white;
+    width: 26rem;
+    height: 5rem;
+    position: sticky;
+    top: 78.50%;
+    left: 10%;
+    font-family:var(--font-family-OpenSans);
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
 
 .equipo {
     padding-top: 90px;
@@ -53,7 +84,7 @@ html {
 
 .team {
     color: var(--color-tittle);
-    font-family: var(--font-family)
+    font-family: var(--font-family-OpenSans);
     font-size: 24px;
     text-align: center;
 }
@@ -79,4 +110,40 @@ html {
 
 .puntos {
     background-color: var(--color-background);
+}
+
+.footer {
+    font-family: var(--font-family-OpenSans);
+    text-align: center;
+    width: 32rem;
+    height: 25rem;
+    padding: 3rem 7.4rem 4.5rem;
+    border: solid 1px;
+}
+
+.fteam {
+    width: 17.2rem;
+    height: 2rem;
+    margin: 0 0 2rem;
+    font-size: 1.4rem;
+    color: #b8b8b9;
+    line-height: 2rem;
+}
+
+.flist {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #54585a;
+    width: 11.4rem;
+    height: 6rem;
+    margin: 2rem 2.9rem 3rem;
+    opacity: 0.75;
+}
+
+.flogo {
+    width: 11.59rem;
+    height: 4.5rem;
+    margin: 0 2.81rem 0 2.8rem;
 }
