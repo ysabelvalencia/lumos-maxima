@@ -1,0 +1,82 @@
+:root {
+    --color-tittle: #14d9c4;
+    --color-parraf: #54585a;
+    --color-background: rgba(184, 184, 185, 0.1);
+    --font-family-Rubik: "Rubik";
+    --font-family-OpenSans: "OpenSans";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    width: 100%;
+    height: 42.1rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../imagenes/companero-empresa-choca-cinco\ \(1\).jpg");
+}
+
+.div-header h1 {
+    background-color: #099d8d;
+    height: 6rem;
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-header {
+    background-color: aqua;
+    height: 4.5rem;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.88;
+}
+
+.div-lema {
+    border: 2px solid black;
+   
+}
+
+.equipo {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team {
+    color: var(--color-tittle);
+    font-family: var(--font-family)
+    font-size: 24px;
+    text-align: center;
+}
+
+.presentacion-global {
+    font-family: var(--font-family-OpenSans);
+    font-size: 16px;
+    color: var(--color-parraf);
+    text-align: center;
+}
+
+.cuadrado {
+    width: 1.875rem;
+    height: 1.875rem;
+    z-index: 100;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%, 100%) rotate(45deg);
+    padding-bottom: 0%;
+    background-color: white;
+}
+
+.puntos {
+    background-color: var(--color-background);
+}
