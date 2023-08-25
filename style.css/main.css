@@ -182,6 +182,19 @@ html {
 
 .social-media {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon::after {
+    content: "·";
+    color: var(--color-subtitle);
+}
+
+.icon {
+    text-decoration: none;
+    color: var(--color-subtitle);
 }
 
 .footer {
