@@ -1,7 +1,7 @@
 :root {
     --color-tittle: #14d9c4;
     --color-parraf: #54585a;
-    --color-background: rgba(184, 184, 185, 0.1);
+    --color-background: rgba(184, 184, 185, 0.2);
     --font-family-Rubik: "Rubik", sans-serif;
     --font-family-OpenSans: "Open sans", sans-serif;
     --color-subtitle: #099d8d;
@@ -116,24 +116,34 @@ html {
     font-weight: 400;
 }
 .square {
-    width: 30px;
-    height: 30px;
+    width: 3rem;
+    height: 3rem;
     z-index: 100;
     position: relative;
     left: 50%;
     top: 50%;
-    transform: translate(-100%, 100%) rotate(45deg);
+    transform: translate(0%, 150%) rotate(45deg);
     padding-bottom: 0%;
     background-color: white;
     border: 2px solid blue;
 }
 
 .points {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 24px;
     background-color: var(--color-background);
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 100%; /*seguir por aqui*/
+    width: 100%; 
+    font-family: var(--font-family-OpenSans);
+    font-size: 1.6rem;
+    color: var(--color-parraf);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 45px;
 }
+
 .points h2{
     color: var(--color-subtitle);
     text-align: center;
@@ -141,10 +151,64 @@ html {
     font-family: var(--font-family-Rubik);
     font-size: 22px;
     font-weight: 500;
-    
+    margin-bottom: 11.5px;
+    margin-top: 11.5px;
 }
-.points p{
 
+.p-force {
+    margin-bottom: 30px;
+}
+
+.h2-who {
+    font-family: var(--font-family-Rubik);
+    text-transform: uppercase;
+    color: var(--color-subtitle);
+    font-weight: 500;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.description {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.names {
+    font-family: var(--font-family-OpenSans);
+    color: black;
+    font-size: 2rem;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.description-us {
+    font-family: var(--font-family-OpenSans);
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: var(--color-parraf);
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon::after {
+    content: "·";
+    color: var(--color-subtitle);
+}
+
+.icon {
+    text-decoration: none;
+    color: var(--color-subtitle);
 }
 
 
