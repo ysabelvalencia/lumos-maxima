@@ -5,6 +5,7 @@
     --font-family-Rubik: "Rubik", sans-serif;
     --font-family-OpenSans: "Open sans", sans-serif;
     --color-subtitle: #099d8d;
+    --coolgrey: #b8b8b9;
 }
 
 html {
@@ -18,7 +19,7 @@ html {
     background-image: url("https://images.pexels.com/photos/5706206/pexels-photo-5706206.jpeg?auto=compress&cs=tinysrgb&w=1600") ;
     background-size: cover;
 }
-.div-header h1{
+.div-header h1 {
     background-color: #099D8D;
     height: 6rem;
     width: 100%;
@@ -36,7 +37,9 @@ html {
     text-transform: uppercase;
     font-weight:500;
 }
+
 .nav-header {
+    display: flex;
     width: 100%;
     height: 4.5rem;
     font-size: 1.5rem;
@@ -53,28 +56,39 @@ html {
     justify-content: center;
     z-index:1;
     opacity: 95%;
-    padding:1.08rem;
+    align-items: center;
+    padding-right: 1.5rem; 
 }
 
 .ul-header-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
 .header-box-item {
     list-style: none;
+    
 }
 .div-lema {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    width: 26rem;
-    height: 5rem;
+    width: 29rem;
+    height: 8rem;
     position: sticky;
-    top: 78.50%;
-    left: 10%;
+    top: 80%;
+    left: 5%;
+    transform: translateY(4rem);
     font-family:var(--font-family-OpenSans);
     font-size: 1.8rem;
-    padding-left: 2rem;
-    padding-top: 1rem;
+    
+}
+
+.text-lema {
+    width: 26rem;
+    height: 5rem;
 }
 
 
@@ -133,49 +147,18 @@ html {
 
 }
 
-.footer {
-    font-family: var(--font-family-OpenSans);
-    text-align: center;
-    width: 32rem;
-    height: 25rem;
-    padding: 3rem 7.4rem 4.5rem;
-    border: solid 1px;
-}
-
-.fteam {
-    width: 17.2rem;
-    height: 2rem;
-    margin: 0 0 2rem;
-    font-size: 1.4rem;
-    color: #b8b8b9;
-    line-height: 2rem;
-}
-
-.flist {
-    list-style: none;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    line-height: 2rem;
-    color: #54585a;
-    width: 11.4rem;
-    height: 6rem;
-    margin: 2rem 2.9rem 3rem;
-    opacity: 0.75;
-}
-
-.flogo {
-    width: 11.59rem;
-    height: 4.5rem;
-    margin: 0 2.81rem 0 2.8rem;
-}
 
 .footer {
     font-family: var(--font-family-OpenSans);
     text-align: center;
-    width: 32rem;
+    width: 100%;
     height: 25rem;
     padding: 3rem 7.4rem 4.5rem;
-    border: solid 1px;
+    border: solid 1px var(—-coolgrey);
+}
+.fnav {
+    display: flex; 
+    justify-content: center;
 }
 
 .fteam {
