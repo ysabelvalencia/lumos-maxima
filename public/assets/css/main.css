@@ -168,6 +168,20 @@ html {
   align-items: center;
   text-align: center; }
 
+.article-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.photo {
+  width: 180px;
+  height: 180px; }
+
+.photo-us {
+  display: block;
+  box-sizing: content-box;
+  width: 100%; }
+
 .names {
   font-family: var(--font-family-OpenSans);
   color: black;
@@ -215,6 +229,10 @@ html {
   color: #b8b8b9;
   line-height: 2rem; }
 
+.link {
+  text-decoration: none;
+  color: inherit; }
+
 .flist {
   list-style: none;
   text-transform: uppercase;
@@ -238,7 +256,8 @@ html {
 
 @media all and (min-width: 768px) {
   .nav-htablet {
-    background-color: black; }
+    background-color: black;
+    display: none; }
   .footer {
     display: flex;
     justify-content: space-between;
