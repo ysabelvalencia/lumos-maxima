@@ -175,7 +175,8 @@ html {
 
 .photo {
   width: 180px;
-  height: 180px; }
+  height: 180px;
+  overflow: hidden; }
 
 .photo-us {
   display: block;
