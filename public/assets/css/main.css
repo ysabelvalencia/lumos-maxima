@@ -175,7 +175,8 @@ html {
 
 .photo {
   width: 180px;
-  height: 180px; }
+  height: 180px;
+  overflow: hidden; }
 
 .photo-us {
   display: block;
@@ -256,8 +257,7 @@ html {
 
 @media all and (min-width: 768px) {
   .nav-htablet {
-    background-color: black;
-    display: none; }
+    background-color: black; }
   .footer {
     display: flex;
     justify-content: space-between;
