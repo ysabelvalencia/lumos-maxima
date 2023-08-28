@@ -1,11 +1,12 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+//@import 'core/variables';
+//@import 'core/reset';
+//@import 'components/code';
+//@import 'components/links';
+//@import 'layout/page';
+//@import 'layout/header';
+//@import 'layout/footer';
+//@import 'pages/index';//
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -248,6 +249,10 @@ html {
     line-height: 2rem;
 }
 
+.link {
+    text-decoration: none;
+    color: inherit;
+}
 
 .flist {
     list-style: none;
@@ -259,6 +264,7 @@ html {
     height: 6rem;
     margin: 2rem 2.9rem 3rem;
     opacity: 0.75;
+
 }
 
 .flogo {
@@ -279,6 +285,7 @@ html {
     @media all and (min-width: 768px){
         .nav-htablet {
             background-color: black;
+            display: none;
          }
     
     
