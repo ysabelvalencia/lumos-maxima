@@ -1,0 +1,136 @@
+.section-team {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team {
+    color: var(--color-tittle);
+    font-family: var(--font-family-Rubik);
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.global-presentation {
+    font-family: var(--font-family-OpenSans);
+    font-size: 16px;
+    color: var(--color-parraf);
+    text-align: center;
+    font-weight: 400;
+}
+.square {
+    width: 3rem;
+    height: 3rem;
+    z-index: 100;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, 150%) rotate(45deg);
+    padding-bottom: 0%;
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 24px;
+    background-color: var(--color-background);
+    width: 100%; 
+    font-family: var(--font-family-OpenSans);
+    font-size: 1.6rem;
+    color: var(--color-parraf);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.points h2{
+    color: var(--color-subtitle);
+    text-align: center;
+    margin-top: 30px;
+    font-family: var(--font-family-Rubik);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 11.5px;
+    margin-top: 11.5px;
+}
+
+.p-force {
+    margin-bottom: 30px;
+}
+
+.h2-who {
+    font-family: var(--font-family-Rubik);
+    text-transform: uppercase;
+    color: var(--color-subtitle);
+    font-weight: 500;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.description {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    overflow:hidden;
+}
+
+.photo-us {
+    display: block;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.names {
+    font-family: var(--font-family-OpenSans);
+    color: black;
+    font-size: 2rem;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.description-us {
+    font-family: var(--font-family-OpenSans);
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: var(--color-parraf);
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon::after {
+    content: "·";
+    color: var(--color-subtitle);
+}
+
+.icon {
+    text-decoration: none;
+    color: var(--color-subtitle);
+}

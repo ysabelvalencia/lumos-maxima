@@ -1,8 +1,53 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  font-family: var(--font-family-OpenSans);
+  text-align: center;
+  width: 100%;
+  height: 25rem;
+  padding: 3rem 7.4rem 4.5rem;
+  border: solid 1px var(--coolgrey);
 }
+.fnav {
+  display: flex; 
+  justify-content: center;
+}
+
+.fteam {
+  width: 17.2rem;
+  height: 2rem;
+  margin: 0 0 2rem;
+  font-size: 1.4rem;
+  color: #b8b8b9;
+  line-height: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flist {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #54585a;
+  width: 11.4rem;
+  height: 6rem;
+  margin: 2rem 2.9rem 3rem;
+  opacity: 0.75;
+
+}
+
+.flogo {
+  width: 11.59rem;
+  height: 4.5rem;
+  margin: 0 2.81rem 0 2.8rem;
+}
+
+.flogot {
+
+      width: 11.59rem;
+      height: 4.5rem;
+      display: none
+  
+  }
