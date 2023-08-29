@@ -6,9 +6,83 @@
 
 
     @media all and (min-width: 768px){
-        .nav-htablet {
-            background-color: black;
+        .ul-header-box-tablet {
+            display: flex; 
+            justify-content: right;
+            gap: 1.8rem;
+            font-size: 1.5rem;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 500;
+            line-height: 1.88;
+            margin-top: 6rem;
+            font-family: var(--font-family-Rubik);
+            position: sticky;
+            top: 0;
+            left: 100rem; 
+            z-index: 2;
+            list-style: none;
+            transform: translateY(-150%);
+            padding-right: 4.5rem;
+            }
+        
+            
+            .link {
+                text-decoration: none;
+                color: white; 
+            }
+        
+            .ul-header-box-tablet .div-header h1 {
+              display: flex;
+            }
+        
+            .div-header h1 {
+                justify-content: space-between;
+                padding-left: 4.5rem;
+            }
+            .nav-header {
+                display: none; 
+            }
+
+        }
+
+        /*.nav-htablet {
+            background-color: transparent;
+            height: 6rem;
+            width: 100%;
+            position: fixed;
+            z-index:1;
+            top:0;
+            left: 0;
+            font-family: var(--font-family-Rubik);
+            font-size: 1.6rem;
+            color: white;
+            text-transform: uppercase;
+            font-weight:500;
          }
+         */
+         .header-box-tablet {
+            list-style: none;   
+
+            }
+        
+            
+            .link {
+                text-decoration: none;
+                color: white; 
+            }
+        
+            .ul-header-box-tablet .div-header h1 {
+              display: flex;
+            }
+        
+            .div-header h1 {
+                justify-content: space-between;
+                padding-left: 4.5rem;
+            }
+            .nav-header {
+                display: none; 
+            }
     
     
          .footer {
