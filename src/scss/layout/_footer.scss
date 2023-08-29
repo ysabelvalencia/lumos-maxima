@@ -4,13 +4,25 @@
   width: 100%;
   height: 25rem;
   padding: 3rem 7.4rem 4.5rem;
-  border: solid 1px var(--coolgrey);
-
+  border-top:  solid 1px var(--coolgrey);
   
+      @media (min-width:768px) {
+        display: flex;
+        justify-content: space-between;
+        height: 17rem;
+        padding: 2rem 0rem 0rem 0rem;
+        
+      }
 }
-.fnav {
-  display: flex; 
-  justify-content: center;
+.div-teamlogo {
+
+      @media (min-width:768px)  {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 50%;
+      margin-left: 3rem;
+    }
 }
 
 .fteam {
@@ -20,11 +32,28 @@
   font-size: 1.4rem;
   color: #b8b8b9;
   line-height: 2rem;
+    @media (min-width:768px) {
+    text-align: left;
+   }
 }
 
-.link {
-  text-decoration: none;
-  color: inherit;
+.flogot {
+    @media (min-width:768px) {
+    width: 11.59rem;
+    display: block;
+    justify-content: center;
+    padding-top: 1;
+    height: 4.5rem;
+    }
+}
+.fnav {
+  display: flex; 
+  justify-content: center;
+    
+    @media (min-width:768px) {
+        width: 50%;
+        justify-content: right;
+    }
 }
 
 .flist {
@@ -36,13 +65,31 @@
   width: 11.4rem;
   height: 6rem;
   opacity: 0.75;
-  margin: 2rem 0 2rem 0; 
+  margin: 2rem 0 2rem 0;
+  
+    @media (min-width:768px) {
+      margin: 0rem 3rem 0rem 0rem;
+      height: auto;
+      line-height: 3rem;
+      text-align: right;
+      color: var(--coolgrey); 
+    }
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 .flogo {
   width: 11.59rem;
   height: 4.5rem;
   margin: 0 2.81rem 0 2.8rem;
+
+    @media (min-width:768px){
+
+      display: none;
+    }
 }
 
 .flogot {
@@ -52,3 +99,4 @@
       display: none;
   
   }
+ 
