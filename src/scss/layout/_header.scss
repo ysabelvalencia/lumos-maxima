@@ -22,7 +22,12 @@
   color: white;
   text-transform: uppercase;
   font-weight:500;
-}
+  @media (min-width:768px){
+            justify-content: space-between;
+            padding-left: 4.5rem;
+        }
+  }
+
 
 .nav-header {
   display: flex;
@@ -44,7 +49,11 @@
   opacity: 95%;
   align-items: center;
   padding-right: 1.5rem; 
-}
+  @media (min-width:768px){
+    display: none; 
+       }
+  }
+
 
 .ul-header-box {
   display: flex;
@@ -69,16 +78,65 @@
   transform: translateY(4rem);
   font-family:var(--font-family-OpenSans);
   font-size: 1.8rem;
-  
+  @media (min-width:768px){
+        transform: translateY(0rem);
+        width: 45rem;
+        height: 8rem;
+        opacity: 70%;
+  }
 }
 
 .text-lema {
   width: 26rem;
   height: 5rem;
   font-weight: 600;
+  @media (min-width:768px) {
+        width: 90%;
+        height: 4rem;
+        opacity: 100%;
+      }
 }
 
 .nav-htablet {
   color: transparent; 
+  @media all and (min-width: 768px){
+        height: 6rem;
+        width: 100%;
+        position: fixed;
+        z-index:1;
+        top:0;
+        left: 0;
+        font-family: var(--font-family-Rubik);
+        font-size: 1.6rem;
+        color: white;
+        text-transform: uppercase;
+        font-weight:500;
+    }
 }
+
+.ul-header-box-tablet {
+  @media all and (min-width: 768px){
+        display: flex; 
+        justify-content: right;
+        gap: 1.8rem;
+        font-size: 1.5rem;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 1.88;
+        margin-top: 6rem;
+        font-family: var(--font-family-Rubik);
+        list-style: none;
+        transform: translateY(-150%);
+        padding-right: 4.5rem;
+        }
+      }
+
+  .link {
+    @media all and (min-width: 768px){  
+      text-decoration: none;
+        }
+      }
+  
+    
 /*Funciona pero revisar por si acaso*/
