@@ -58,6 +58,7 @@ input[type=text]{
 input[type=email]{
   height: 4.5rem;
   color: #54585a;
+  margin-bottom: 1.5rem;
   @media (min-width: 1200px){
     min-width: 29.5rem;
   }
@@ -157,16 +158,11 @@ input {
 }
 
 .media_desktop, .media_desktop-two {
-  @media (min-width: 768px) {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.media_desktop, .media_desktop-two {
-  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  }
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
 }
