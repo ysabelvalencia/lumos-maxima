@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Nombre del grupo</title>
+    <title>Contacta con Lumos Maxima</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,42 +27,91 @@
     ></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
-
-  <body>
-    <header class="headerc">
-      <div class="div-headerc">
-        <h1>Lumos Maxima</h1>
-        <nav class="nav-htabletc">
-          <ul class="ul-header-box-tablet">
-            <li class="header-box-item-tabletc">
-              <a class="linkc" href="index.html#team">Equipo</a>
-            </li>
-            <li class="header-box-item-tabletc">
-              <a class="linkc" href="#who">Quiénes somos</a>
-            </li>
-            <li class="header-box-item-tabletc">
-              <a class="linkc" href="../contact.html">Contactos</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <nav class="nav-headerc">
-        <ul class="ul-header-boxc">
-          <li class="header-box-itemc">
-            <a class="linkc" href="#team">Equipo</a>
+  <header class="header_contact">
+    <div class="div-header">
+      <h1><a href="./index.html" class="link_lumos">Lumos Maxima</a></h1>
+      <nav class="nav-htablet">
+        <ul class="ul-header-box-tablet">
+          <li class="header-box-item-tablet">
+            <a class="link" href="./index.html#team">Equipo</a>
           </li>
-          <li class="header-box-itemc">
-            <a class="link" href="#who">Quienes somos</a>
+          <li class="header-box-item-tablet">
+            <a class="link" href="./index.html#who">Quiénes somos</a>
           </li>
-          <li class="header-box-itemc">
-            <a class="linkc" href="" target="_blank">Contactos</a>
+          <li class="header-box-item-tablet">
+            <a class="link" href="../contact.html">Contacto</a>
           </li>
         </ul>
       </nav>
-    </header>
-
-    <main>
-      <h1>PÁGINA EN DESARROLLO</h1>
-    </main>
-  </body>
+    </div>
+    <nav class="nav-header">
+      <ul class="ul-header-box">
+        <li class="header-box-item">
+          <a class="link" href="#team">Equipo</a>
+        </li>
+        <li class="header-box-item">
+          <a class="link" href="#who">Quienes somos</a>
+        </li>
+        <li class="header-box-item">
+          <a class="link" href="">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main_contact">
+    <section class="section__contact">
+      <h1 class="title__contact">Contacto</h1>
+      <p class="text__contact one">Si quieres saber un poco más de nuestras artes mágicas y necesitas contactarnos, déjanos tus datos para enviarte una lechuza lo antes posible con nuestra respuesta</p>
+      <p class="text__contact two">Todos los campos marcados con <i class="fa-solid fa-asterisk"></i> son obligatorios.</p>
+      </p>
+    </section>
+    <div class="box__form">
+      <form class="contact_form" action="https://adalab-server-form.herokuapp.com/" method="GET">
+        <label for="firstName">Nombre completo <i class="fa-solid fa-asterisk"></i></label>
+        <input
+          placeholder="Nombre..."
+          id="fullname"
+          type="text"
+          name="fullname"
+          autocomplete="name"
+          required
+        />
+      <div class="row">
+        <div class="media_desktop">
+        <label for="emailAddress">Email <i class="fa-solid fa-asterisk"></i></label>
+        <input
+          placeholder="nombre.apellidos@mail.com"
+          id="emailAdress"
+          type="email"
+          name="emailAdress"
+          autocomplete="email"
+          requiered
+        />
+        </div>
+        <div class="media_desktop-two">
+        <label for="phone">Teléfono</label>
+        <input
+          placeholder="Ej: 123456789"
+          id="telephone"
+          type="tel"
+          name="telephone"
+          autocomplete="telephone"
+        />
+      </div>
+    </div>
+        <label for="comments" >Mensaje <i class="fa-solid fa-asterisk"></i></label>
+        <textarea
+          class="textArea"
+          placeholder="¿Qué necesitas?"
+          id="comments"
+          name="comments"
+          rows="7"
+          cols="80"
+          required
+          ></textarea>
+        <input type="submit" value="enviar" class="submit">
+      </form>
+    </div>
+  </main>
+  <include src="./partials/footer.html"></include>
 </html>
