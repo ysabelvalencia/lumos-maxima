@@ -27,33 +27,19 @@
     ></script>
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
+  <body>
   <header class="header_contact">
-    <div class="div-header">
-      <h1><a href="./index.html" class="link_lumos">Lumos Maxima</a></h1>
-      <nav class="nav-htablet">
-        <ul class="ul-header-box-tablet">
-          <li class="header-box-item-tablet">
-            <a class="link" href="./index.html#team">Equipo</a>
-          </li>
-          <li class="header-box-item-tablet">
-            <a class="link" href="./index.html#who">Quiénes somos</a>
-          </li>
-          <li class="header-box-item-tablet">
-            <a class="link" href="../contact.html">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <nav class="nav-header">
-      <ul class="ul-header-box">
-        <li class="header-box-item">
-          <a class="link" href="#team">Equipo</a>
+    <h1 class="header__title"><a class="link" href="./index.html">Lumos Maxima</a></h1>
+    <nav class="header__nav">
+      <ul class="header__nav__box">
+        <li class="header__nav__box--item">
+          <a class="link" href="./index.html#team">Equipo</a>
         </li>
-        <li class="header-box-item">
-          <a class="link" href="#who">Quienes somos</a>
+        <li class="header__nav__box--item">
+          <a class="link" href="./index.html#who">Quienes somos</a>
         </li>
-        <li class="header-box-item">
-          <a class="link" href="">Contacto</a>
+        <li class="header__nav__box--item">
+          <a class="link" href="../contact.html">Contacto</a>
         </li>
       </ul>
     </nav>
@@ -113,5 +99,35 @@
       </form>
     </div>
   </main>
-  <include src="./partials/footer.html"></include>
+  <footer class="footer">
+    <div class="div-teamlogo">
+      <span class="fteam">Lumos Maxima © 2023</span>
+      <a class="link-logo" href="https://adalab.es/">
+        <img
+          class="flogot"
+          src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
+          alt="Es el logo de Adalab"
+      /></a>
+    </div>
+    <nav class="fnav">
+      <ul class="flist">
+        <li>
+          <a class="link" href="./index.html#team">Equipo</a>
+        </li>
+        <li>
+          <a class="link" href="./index.html#who">Quiénes somos</a>
+        </li>
+        <li>
+          <a class="link" href="../contact.html" target="_blank">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <a href="https://adalab.es/">
+      <img
+        class="flogo"
+        src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
+        alt="Es el logo de Adalab"
+    /></a>
+  </footer>  
+</body>
 </html>

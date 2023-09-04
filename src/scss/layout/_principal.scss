@@ -158,6 +158,9 @@
     }
 }
 
+.even {
+    text-align: right;
+}
 
 .text-description {
     @media (min-width: 768px){
@@ -169,6 +172,7 @@
         text-align: left;
 }
 }
+
 
 
 /*.article-content:nth-child(odd){
