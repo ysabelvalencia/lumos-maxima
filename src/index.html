@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
     <title>LUMOS MAXIMA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,12 +24,30 @@
       src="https://kit.fontawesome.com/66349fc88a.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./scss/main.scss" />
   </head>
 
   <body>
-    <include src="./partials/header.html"></include>
-    <include src="./partials/main.html"></include>
-    <include src="./partials/footer.html"></include>
+    <load src="./partials/_header.html" />
+    <main>
+      <load src="./partials/_section-team.html" />
+      <div class="square"></div>
+      <load src="./partials/_points.html" />
+      <load src="./partials/_article.html" />
+      version 1 link carta y lumus url('./images/carta.jpg');
+      url('../../images/lumos_maxima.jpg'); KO
+      <br />
+      version 2 link lumus url('../images/lumos_maxima.jpg')---link carta
+      '../images/carta.jpg'---link contact "contact.html" KO
+      <br />
+      version 3 imagen Cris ok. link contacto "../contact.html"
+      <br />
+      version 4 ruta contact ./contact.html
+      <br />
+      version 5 configuracion vite inicial
+    </main>
+    <load src="./partials/_footer.html" />
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

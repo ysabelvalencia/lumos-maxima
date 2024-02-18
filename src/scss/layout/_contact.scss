@@ -1,88 +1,88 @@
-.header_contact {
+.header-contact {
   width: 100%;
   height: 40rem;
   /* display: block; */
-  background-image: url("../images/carta.jpg");
+  background-image: url('../images/carta.jpg');
   background-size: cover;
 }
 .section__contact {
-    padding-top: 4rem;
-    text-align: center;
-    margin: 15px;
+  padding-top: 4rem;
+  text-align: center;
+  margin: 15px;
 }
 .text__contact {
-    font-family: "Open Sans";
-    font-size: 1.4rem;
-    line-height: 2.4rem;
-    color: #54585a;
+  font-family: 'Open Sans';
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #54585a;
 
-    .one {
-      padding-bottom: 4rem;
-    }
-    .two {
-      padding-top: 5.8rem;
-    }
+  .one {
+    padding-bottom: 4rem;
+  }
+  .two {
+    padding-top: 5.8rem;
+  }
 }
 .contact_form {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1.5rem;
 }
 
 .title__contact {
   color: #099d8d;
-  font-family: "Rubik";
+  font-family: 'Rubik';
   font-weight: 500;
   text-transform: uppercase;
   font-size: 2.4rem;
 }
-.fa-asterisk{
+.fa-asterisk {
   color: aqua;
   font-size: 0.8rem;
   vertical-align: top;
 }
 
 .box__form {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 1.4rem;
   margin-top: 5.8rem;
   color: #54585a;
 }
 
-input[type=text]{
+input[type='text'] {
   height: 4.5rem;
   color: #54585a;
 }
 
-input[type=email]{
+input[type='email'] {
   height: 4.5rem;
   color: #54585a;
   margin-bottom: 1.5rem;
-  @media (min-width: 1200px){
+  @media (min-width: 1200px) {
     min-width: 29.5rem;
   }
-  }
+}
 
-input[type=tel]{
+input[type='tel'] {
   height: 4.5rem;
   color: #54585a;
-  @media (min-width: 1200px){
+  @media (min-width: 1200px) {
     width: 16.2rem;
   }
 }
 
 .textArea {
   color: #54585a;
-  font-family: "Open Sans";
-  @media (min-width: 768px){
+  font-family: 'Open Sans';
+  @media (min-width: 768px) {
     border: #b8b8b9 1px solid;
   }
 }
 
-textarea:focus{
-    background-color: #b8b8b9;
-    opacity: 40%;
+textarea:focus {
+  background-color: #b8b8b9;
+  opacity: 40%;
 }
 
 input:focus {
@@ -100,22 +100,22 @@ input:focus {
   border-top-right-radius: 0.6rem;
   border-bottom-left-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 500;
   color: white;
   background-color: #099d8d;
   font-size: 1.6rem;
   border: none;
 
-  @media (min-width: 768px){
-  width: 20.6rem;
-  transform: translateX(120%);
+  @media (min-width: 768px) {
+    width: 20.6rem;
+    transform: translateX(120%);
   }
 
-  @media (min-width: 1200px){
+  @media (min-width: 1200px) {
     width: 27.8rem;
     transform: translateX(102%);
-    }
+  }
 }
 
 .link_lumos {
@@ -124,23 +124,24 @@ input:focus {
 }
 
 .main_contact {
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     margin-left: 16.3rem;
     margin-right: 16.3rem;
   }
-  @media (min-width: 1200px){
+  @media (min-width: 1200px) {
     margin-left: 30rem;
     margin-right: 30rem;
   }
 }
 
 input {
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     border: #b8b8b9 1px solid;
   }
 }
 
-.media_desktop, .media_desktop-two {
+.media_desktop,
+.media_desktop-two {
   @media (min-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -157,12 +158,13 @@ input {
   }
 }
 
-.media_desktop, .media_desktop-two {
+.media_desktop,
+.media_desktop-two {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  @media (min-width: 768px) {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    @media (min-width: 768px) {
-      display: flex;
-      flex-direction: column;
-    }
+  }
 }
