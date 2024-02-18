@@ -19,12 +19,12 @@
     font-size: 3rem;
     word-spacing: 1.5rem;
     cursor: pointer;
+    text-wrap: nowrap;
     @media (min-width: 768px) {
+      width: 50%;
       justify-content: flex-start;
       padding-left: 4.5rem;
       background: none;
-      font-size: 3rem;
-      word-spacing: 1.5rem;
     }
     @media (min-width: 1200px) {
       padding-left: 16rem;
@@ -67,12 +67,6 @@
       }
       &--item {
         list-style: none;
-      }
-    }
-    .link {
-      @media (min-width: 768px) {
-        text-decoration: none;
-        cursor: pointer;
       }
     }
   }
