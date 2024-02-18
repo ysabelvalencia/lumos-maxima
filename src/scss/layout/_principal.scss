@@ -189,9 +189,9 @@
 }
 
 .names {
-  font-family: var(--font-family-OpenSans);
+  font-family: 'Matisan', sans-serif;
   color: black;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 45px;
   font-weight: 400;
 }
@@ -211,17 +211,18 @@
   margin-top: 15px;
   font-size: 2rem;
   @media (min-width: 768px) {
-    justify-content: flex-end;        
+    justify-content: flex-end;
   }
 }
 
-.cris{
-    @media (min-width: 768px){
-    justify-content: flex-start;}
+.cris {
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
 }
 
 .icon::after {
-  content: "·";
+  content: '·';
   color: var(--color-subtitle);
 }
 
