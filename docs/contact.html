@@ -26,110 +26,107 @@
       crossorigin="anonymous"
     ></script>
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-a72dbc21.css">
+    <link rel="icon" href="./images/sombrero-de-bruja.png" />
+    <link rel="stylesheet" href="./assets/main-2f5e9830.css">
   </head>
   <body>
   <header class="header-contact">
-    <h1 class="header__title"><a class="link" href="./index.html">Lumos Maxima</a></h1>
-    <nav class="header__nav">
-      <ul class="header__nav__box">
-        <li class="header__nav__box--item">
-          <a class="link" href="./index.html#team">Equipo</a>
-        </li>
-        <li class="header__nav__box--item">
-          <a class="link" href="./index.html#who">Quienes somos</a>
-        </li>
-        <li class="header__nav__box--item">
-          <a class="link" href="./contact.html">Contacto</a>
-        </li>
-      </ul>
-    </nav>
+    <h1 class="title">
+  <a class="title__link" href="./">Lumos Maxima</a>
+</h1>
+<nav class="nav">
+  <ul class="nav__box">
+    <li class="nav__box__item">
+      <a class="link" href="../index.html#team">Equipo</a>
+    </li>
+    <li class="nav__box__item">
+      <a class="link" href="../index.html#who">Quiénes somos</a>
+    </li>
+    <li class="nav__box__item">
+      <a class="link" href="./contact.html">Contacto</a>
+    </li>
+  </ul>
+</nav>
+<div class="div">
+  <span class="div__text" id="team">
+    “La felicidad puede hallarse en la oscuridad, si somos capaces de usar bien
+    la luz.”
+  </span>
+</div>
+
   </header>
-  <main class="main_contact">
-    <section class="section__contact">
-      <h1 class="title__contact">Contacto</h1>
-      <p class="text__contact one">Si quieres saber un poco más de nuestras artes mágicas y necesitas contactarnos, déjanos tus datos para enviarte una lechuza lo antes posible con nuestra respuesta</p>
-      <p class="text__contact two">Todos los campos marcados con <i class="fa-solid fa-asterisk"></i> son obligatorios.</p>
+
+  <main class="main-contact">
+    <section class="section-contact">
+      <h1 class="section-contact__title">Contacto</h1>
+      <p class="section-contact__text one">Si quieres saber un poco más de nuestras artes mágicas y necesitas contactarnos, déjanos tus datos para enviarte una lechuza lo antes posible con nuestra respuesta</p>
+      <p class="section-contact__text two">Todos los campos marcados con <i class="fa-solid fa-asterisk"></i> son obligatorios.</p>
       </p>
     </section>
-    <div class="box__form">
-      <form class="contact_form" action="https://adalab-server-form.herokuapp.com/" method="GET">
-        <label for="firstName">Nombre completo <i class="fa-solid fa-asterisk"></i></label>
-        <input
-          placeholder="Nombre..."
-          id="fullname"
-          type="text"
-          name="fullname"
-          autocomplete="name"
-          required
-        />
-      <div class="row">
-        <div class="media_desktop">
-        <label for="emailAddress">Email <i class="fa-solid fa-asterisk"></i></label>
-        <input
-          placeholder="nombre.apellidos@mail.com"
-          id="emailAdress"
-          type="email"
-          name="emailAdress"
-          autocomplete="email"
-          required
-        />
+    <div class="form-container">
+      <form action="https://adalab-server-form.herokuapp.com/" method="GET" class="form">
+        <label for="fullname">Nombre completo <i class="fa-solid fa-asterisk"></i></label>
+        <input type="text" id="fullname" name="fullname" class="input" placeholder="Nombre..." autocomplete="name" required />
+    
+        <div class="row">
+          <div class="media_desktop">
+            <label for="emailAddress">Email <i class="fa-solid fa-asterisk"></i></label>
+            <input type="email" id="emailAddress" name="emailAddress" class="input" placeholder="nombre.apellidos@mail.com" autocomplete="email" required />
+          </div>
+    
+          <div class="media_desktop-two">
+            <label for="telephone">Teléfono</label>
+            <input type="tel" id="telephone" name="telephone" class="input" placeholder="Ej: +34 123456789" autocomplete="tel" />
+          </div>
         </div>
-        <div class="media_desktop-two">
-        <label for="phone">Teléfono</label>
-        <input
-          placeholder="Ej: 123456789"
-          id="telephone"
-          type="tel"
-          name="telephone"
-          autocomplete="telephone"
-        />
-      </div>
-    </div>
-        <label for="comments" >Mensaje <i class="fa-solid fa-asterisk"></i></label>
-        <textarea
-          class="textArea"
-          placeholder="¿Qué necesitas?"
-          id="comments"
-          name="comments"
-          rows="7"
-          cols="80"
-          required
-          ></textarea>
-        <input type="submit" value="enviar" class="submit">
+    
+        <label for="comments">Mensaje <i class="fa-solid fa-asterisk"></i></label>
+        <textarea id="comments" name="comments" class="text-area" placeholder="¿Qué necesitas?" rows="7" cols="80" required></textarea>
+    
+        <input type="submit" value="Enviar" class="submit" />
       </form>
     </div>
+    
   </main>
   <footer class="footer">
-    <div class="div-teamlogo">
-      <span class="fteam">Lumos Maxima © 2023</span>
-      <a class="link-logo" href="https://adalab.es/">
-        <img
-          class="flogot"
-          src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
-          alt="Es el logo de Adalab"
-      /></a>
-    </div>
-    <nav class="fnav">
-      <ul class="flist">
-        <li>
-          <a class="link" href="./index.html#team">Equipo</a>
-        </li>
-        <li>
-          <a class="link" href="./index.html#who">Quiénes somos</a>
-        </li>
-        <li>
-          <a class="link" href="./contact.html" target="_blank">Contacto</a>
-        </li>
-      </ul>
-    </nav>
-    <a href="https://adalab.es/">
+  <div class="box-logo">
+    <span class="box-logo__copy">Lumos Maxima © 2023</span>
+    <a href="../project.html" target="_blank">
       <img
-        class="flogo"
-        src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
-        alt="Es el logo de Adalab"
-    /></a>
-  </footer>  
+        class="box-logo__logo"
+        src="./images/varita-magica.png"
+        alt="Es el logo"
+      />
+    </a>
+  </div>
+  <nav class="footer-nav">
+    <ul class="footer-nav__list">
+      <li>
+        <a class="footer-nav__list__link" href="#team">Equipo</a>
+      </li>
+      <li>
+        <a class="footer-nav__list__link" href="#who">Quiénes somos</a>
+      </li>
+      <li>
+        <a class="footer-nav__list__link" href="../contact.html" target="_blank"
+          >Contacto</a
+        >
+      </li>
+      <li>
+        <a class="footer-nav__list__link" href="../project.html" target="_blank"
+          >Sobre este proyecto</a
+        >
+      </li>
+    </ul>
+  </nav>
+  <a href="../project.html" target="_blank">
+    <img
+      class="footer__logo2"
+      src="./images/varita-magica.png"
+      alt="Es el logo"
+    />
+  </a>
+</footer>
+
 </body>
 </html>

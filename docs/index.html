@@ -36,49 +36,51 @@
       type="font/otf"
     />
     
-    <script type="module" crossorigin src="./index.js"></script>
-    <link rel="stylesheet" href="./assets/main-a72dbc21.css">
+    <script type="module" crossorigin src="./assets/main-a7aa04d9.js"></script>
+    <link rel="stylesheet" href="./assets/main-2f5e9830.css">
   </head>
 
   <body>
     <header class="header">
-  <h1 class="header__title">
-    <a class="link" href="./">Lumos Maxima</a>
-  </h1>
-  <nav class="header__nav">
-    <ul class="header__nav__box">
-      <li class="header__nav__box--item">
-        <a class="link" href="#team">Equipo</a>
-      </li>
-      <li class="header__nav__box--item">
-        <a class="link" href="#who">Quienes somos</a>
-      </li>
-      <li class="header__nav__box--item">
-        <a class="link" href="./contact.html">Contacto</a>
-      </li>
-    </ul>
-  </nav>
-  <div class="header__div">
-    <span class="header__div--text" id="team">
-      “La felicidad puede hallarse en la oscuridad, si somos capaces de usar
-      bien la luz.”
-    </span>
-  </div>
-</header>
+      <h1 class="title">
+  <a class="title__link" href="./">Lumos Maxima</a>
+</h1>
+<nav class="nav">
+  <ul class="nav__box">
+    <li class="nav__box__item">
+      <a class="link" href="../index.html#team">Equipo</a>
+    </li>
+    <li class="nav__box__item">
+      <a class="link" href="../index.html#who">Quiénes somos</a>
+    </li>
+    <li class="nav__box__item">
+      <a class="link" href="./contact.html">Contacto</a>
+    </li>
+  </ul>
+</nav>
+<div class="div">
+  <span class="div__text" id="team">
+    “La felicidad puede hallarse en la oscuridad, si somos capaces de usar bien
+    la luz.”
+  </span>
+</div>
 
+    </header>
     <main>
-      <section class="section-team">
-  <h2 class="team">Equipo</h2>
-  <p class="global-presentation one">
-    Cuatro magas, en un principio desconocidas, se encuentran con el desafío de realizar una web en su proceso de convertirse en desarrolladoras. 
+      <section class="team">
+  <h2 class="team__title">El equipo</h2>
+  <p class="team__presentation team__presentation--one">
+    Cuatro magas, en un principio desconocidas, se encuentran con el desafío de
+    realizar una web en su proceso de convertirse en desarrolladoras.
   </p>
-  <p class="global-presentation two">
-    Es entonces cuando forman el equipo Lumos Máxima y unen fuerzas para poder resolverlo con éxito.
+  <p class="team__presentation team__presentation--two">
+    Es entonces cuando forman el equipo Lumos Maxima y unen fuerzas para poder
+    resolverlo con éxito.
   </p>
 </section>
 
       <div class="square"></div>
-      <section class="points">
+      <!-- <section class="points">
   <div class="strength">
   <h2 class="h2-force">Fortalezas</h2>
   <p class="p-force">
@@ -91,22 +93,46 @@
     Aunque somos estupendas, no podemos ignorar que nos falta experiencia. Por eso en ocasiones podemos ir más lento de lo esperado. Pero con un poquito de magia... ¡aquí no ha pasado nada!
   </p>
 </div>
+</section> -->
+
+<section class="description">
+  <div class="description__box">
+    <h2 class="description__box__title">Fortalezas</h2>
+    <p class="description__box__paragraph">
+      El equipo tiene lo mejor de cada casa: valentía, inteligencia, ambición y
+      trabajo duro. Estas cualidades harán que el equipo pueda trabajar en
+      sintonía y resolver cualquier contratiempo que se les ponga por delante.
+      Como dice nuestro lema, para nosotras prevalece la luz al final del
+      camino.
+    </p>
+  </div>
+  <div class="description__box">
+    <h2 class="description__box__title">Debilidades</h2>
+    <p class="description__box__paragraph" id="who">
+      Aunque somos estupendas y tenemos muchas ganas de trabajar, no podemos
+      ignorar que nos falta experiencia. Por eso en ocasiones podemos ir más
+      lento de lo esperado. Pero con un poquito de magia y movimiento de
+      varita... ¡aquí no ha pasado nada!
+    </p>
+  </div>
 </section>
 
-      <section class="description">
-  <h2 class="h2-who">Quiénes somos</h2>
-  <article class="article-content">
-    <div class="photo">
+      <section class="about-us">
+  <h2 class="about-us__title">Quiénes somos</h2>
+
+  <article class="about-us__content">
+    <div class="box-photo">
       <img
         src="./images/CrisGryffindor.jpg"
         alt="Foto de Cris"
         srcset=""
-        class="photo-us"
+        class="box-photo__photo"
       />
     </div>
-    <div class="text-description">
-      <h3 class="names">Cris</h3>
-      <p class="description-us">
+
+    <div class="about-us__box-description">
+      <h3 class="about-us__box-description__names">Cris</h3>
+      <p class="about-us__box-description__description">
         Mi nombre es Cris y vivo en Madrid. Antigua Store Manager, actual
         Adalaber y futura programadora. A mis 33 años me sigue encantando
         aprender y he descubierto en la programación un mundo de posibilidades
@@ -114,11 +140,12 @@
         algo nuevo pero a veces sólo hay que salir fuera, despejar la cabeza,
         recordar quién eres y dónde quieres estar.
       </p>
+
       <nav>
-        <ul class="social-media cris">
+        <ul class="about-us__social-media about-us__social-media--odd">
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://twitter.com/crisnicosmile"
               target="_blank"
             >
@@ -127,7 +154,7 @@
           </li>
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://www.linkedin.com/in/cristina-nicolas-morata"
               target="_blank"
             >
@@ -136,7 +163,7 @@
           </li>
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://github.com/cristinanico"
               target="_blank"
             >
@@ -145,7 +172,7 @@
           </li>
           <li>
             <a
-              class="icon blank"
+              class="about-us__icon about-us__icon--blank"
               href="mailto:crisniko3@hotmail.com"
               target="_blank"
             >
@@ -156,35 +183,42 @@
       </nav>
     </div>
   </article>
-  <article class="article-content">
-    <div class="photo">
+
+  <article class="about-us__content">
+    <div class="box-photo">
       <img
         src="./images/YsaStlytherin.png"
-        alt="foto de Ysa"
+        alt="Foto de Ysa"
         srcset=""
-        class="photo-us"
+        class="box-photo__photo"
       />
     </div>
-    <div class="text-description">
-      <h3 class="names even">Ysa</h3>
-      <p class="description-us even">
+
+    <div class="about-us__box-description about-us__box-description--even">
+      <h3 class="about-us__box-description__names">Ysa</h3>
+      <p class="about-us__box-description__description">
         Soy Ysa, tengo 33 años, y estudié Historia del Arte. Trabajo como
-        gestora en una compañia de seguros pero decidí tomar la decisión de
+        gestora en una compañía de seguros pero decidí tomar la decisión de
         cambiar de sector. Estoy emocionada por empezar mis primeros pasos en la
-        programación, aprender y superarme para convertirme una gran
+        programación, aprender y superarme para convertirme en una gran
         profesional.
       </p>
+
       <nav>
-        <ul class="social-media even">
+        <ul class="about-us__social-media about-us__social-media--even">
           <li>
-            <a class="icon" href="https://twitter.com/ysa_fvr8" target="_blank">
+            <a
+              class="about-us__icon"
+              href="https://twitter.com/ysa_fvr8"
+              target="_blank"
+            >
               <i class="fa-brands fa-x-twitter"></i>
             </a>
           </li>
           <li>
             <a
-              class="icon"
-              href="https://www.linkedin.com/in/ysabel-valencia-ramirez-47b9b581"
+              class="about-us__icon"
+              href="https://www.linkedin.com/in/ysabel-valencia-ramirez/"
               target="_blank"
             >
               <i class="fa-brands fa-linkedin-in"></i>
@@ -192,7 +226,7 @@
           </li>
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://github.com/ysabelvalencia"
               target="_blank"
             >
@@ -201,7 +235,7 @@
           </li>
           <li>
             <a
-              class="icon blank"
+              class="about-us__icon about-us__icon--blank"
               href="mailto:ysavalencia@hotmail.com"
               target="_blank"
             >
@@ -212,28 +246,29 @@
       </nav>
     </div>
   </article>
-  <article class="article-content">
-    <div class="photo">
+
+  <article class="about-us__content">
+    <div class="box-photo">
       <img
         src="./images/TereHufflepuff.png"
-        alt="foto de Tere"
+        alt="Foto de Tere"
         srcset=""
-        class="photo-us"
+        class="box-photo__photo"
       />
     </div>
-    <div class="text-description">
-      <h3 class="names">Tere</h3>
-      <p class="description-us">
+    <div class="about-us__box-description">
+      <h3 class="about-us__box-description__names">Tere</h3>
+      <p class="about-us__box-description__description">
         Me llamo Tere y soy de Sevilla, 35 primaveras. Vengo de la rama
         sanitaria y me he aventurado en este extremo proyecto porque me
         considero una persona inquieta y en constante cambio. Curiosa pero
         paciente, espero aprender mucho y...¡ASCENDIO!
       </p>
       <nav>
-        <ul class="social-media cris">
+        <ul class="about-us__social-media about-us__social-media--odd">
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://twitter.com/MtcastroG"
               target="_blank"
             >
@@ -242,7 +277,7 @@
           </li>
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://www.linkedin.com/in/maria-teresa-castro-gonzález"
               target="_blank"
             >
@@ -251,7 +286,7 @@
           </li>
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://github.com/mteresacastro"
               target="_blank"
             >
@@ -260,7 +295,7 @@
           </li>
           <li>
             <a
-              class="icon blank"
+              class="about-us__icon about-us__icon--blank"
               href="mailto:m.teresacastrogonzalez@gmail.com"
               target="_blank"
             >
@@ -271,27 +306,28 @@
       </nav>
     </div>
   </article>
-  <article class="article-content">
-    <div class="photo">
+
+  <article class="about-us__content">
+    <div class="box-photo">
       <img
         src="./images/AlbaRavenclaw.png"
-        alt="foto de Alba"
+        alt="Foto de Alba"
         srcset=""
-        class="photo-us"
+        class="box-photo__photo"
       />
     </div>
-    <div class="text-description">
-      <h3 class="names even">Alba</h3>
-      <p class="description-us even">
+    <div class="about-us__box-description about-us__box-description--even">
+      <h3 class="about-us__box-description__names">Alba</h3>
+      <p class="about-us__box-description__description">
         Soy Alba, vengo de Madrid y estudié psicología. Me aventuro en la
         programación, después de muchos años dándole vueltas, con muchas ganas
         de aprender y transformar mi carrera profesional.
       </p>
       <nav>
-        <ul class="social-media even">
+        <ul class="about-us__social-media about-us__social-media--even">
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://twitter.com/developerdrm"
               target="_blank"
             >
@@ -300,7 +336,7 @@
           </li>
           <li>
             <a
-              class="icon"
+              class="about-us__icon"
               href="https://www.linkedin.com/in/alba-gg-12990728a"
               target="_blank"
             >
@@ -308,13 +344,17 @@
             </a>
           </li>
           <li>
-            <a class="icon" href="https://github.com/AlbaGG25" target="_blank">
+            <a
+              class="about-us__icon"
+              href="https://github.com/AlbaGG25"
+              target="_blank"
+            >
               <i class="fa-brands fa-github-alt"></i>
             </a>
           </li>
           <li>
             <a
-              class="icon blank"
+              class="about-us__icon about-us__icon--blank"
               href="mailto:albaginesgarcia25@gmail.com"
               target="_blank"
             >
@@ -329,34 +369,43 @@
 
     </main>
     <footer class="footer">
-  <div class="div-teamlogo">
-    <span class="fteam">Lumos Maxima © 2023</span>
-    <a class="link-logo" href="https://adalab.es/">
+  <div class="box-logo">
+    <span class="box-logo__copy">Lumos Maxima © 2023</span>
+    <a href="../project.html" target="_blank">
       <img
-        class="flogot"
-        src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
-        alt="Es el logo de Adalab"
-    /></a>
+        class="box-logo__logo"
+        src="./images/varita-magica.png"
+        alt="Es el logo"
+      />
+    </a>
   </div>
-  <nav class="fnav">
-    <ul class="flist">
+  <nav class="footer-nav">
+    <ul class="footer-nav__list">
       <li>
-        <a class="link" href="#team">Equipo</a>
+        <a class="footer-nav__list__link" href="#team">Equipo</a>
       </li>
       <li>
-        <a class="link" href="#who">Quiénes somos</a>
+        <a class="footer-nav__list__link" href="#who">Quiénes somos</a>
       </li>
       <li>
-        <a class="link" href="../contact.html" target="_blank">Contacto</a>
+        <a class="footer-nav__list__link" href="../contact.html" target="_blank"
+          >Contacto</a
+        >
+      </li>
+      <li>
+        <a class="footer-nav__list__link" href="../project.html" target="_blank"
+          >Sobre este proyecto</a
+        >
       </li>
     </ul>
   </nav>
-  <a href="https://adalab.es/">
+  <a href="../project.html" target="_blank">
     <img
-      class="flogo"
-      src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
-      alt="Es el logo de Adalab"
-  /></a>
+      class="footer__logo2"
+      src="./images/varita-magica.png"
+      alt="Es el logo"
+    />
+  </a>
 </footer>
 
     
