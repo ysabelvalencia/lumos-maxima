@@ -64,23 +64,16 @@
     padding: 2rem;
     gap: 1.5rem;
 
-    label {
-      .fa-asterisk {
-        color: var(--color-form);
-        font-size: 0.8rem;
-        vertical-align: top;
-      }
-    }
-
     .input,
     .text-area {
-      color: var(--color-input);
+      color: var(--color-tittle);
       font-size: 1.5rem;
       font-weight: 700;
       padding-left: 1.5rem;
       border-radius: 1rem;
       border: 0.1rem solid var(--color-tittle);
       background-color: var(--color-white);
+      font-family: var(--font-family-OpenSans);
 
       &:focus {
         opacity: 40%;
@@ -90,7 +83,7 @@
 
       &::placeholder {
         font-size: 1.5rem;
-        color: var(--color-tittle);
+        color: var(--color-input);
         font-weight: 700;
       }
     }
@@ -114,7 +107,7 @@
 
     input:-webkit-autofill {
       border: solid 0.1rem var(--color-tittle);
-      -webkit-text-fill-color: var(--color-input);
+      -webkit-text-fill-color: var(--color-tittle);
       -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
     }
 
@@ -137,7 +130,7 @@
       border-radius: 0.6rem;
       font-family: var(--font-family-OpenSans);
       font-weight: 500;
-      color: var(--color-tittle);
+      color: var(--color-white);
       background-color: var(--color-tittle);
       font-size: 1.6rem;
       border: none;
@@ -148,8 +141,7 @@
       }
 
       @media (min-width: 1200px) {
-        width: 27.8rem;
-        transform: translateX(102%);
+        transform: translateX(180%);
       }
     }
 
@@ -184,5 +176,16 @@
         width: 100%;
       }
     }
+  }
+}
+
+.fa-solid,
+.fa-asterisk {
+  color: var(--color-input);
+  vertical-align: top;
+  font-size: 1rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
   }
 }

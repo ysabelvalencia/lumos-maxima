@@ -41,7 +41,11 @@
       </p>
     </section>
     <div class="form-container">
-      <form action="https://adalab-server-form.herokuapp.com/" method="GET" class="form">
+      <form
+        action="https://formspree.io/f/mayrjevl"
+        method="POST"
+        class="form"
+      >
         <label for="fullname">Nombre completo <i class="fa-solid fa-asterisk"></i></label>
         <input type="text" id="fullname" name="fullname" class="input" placeholder="Nombre..." autocomplete="name" required />
     
@@ -53,12 +57,12 @@
     
           <div class="media_desktop-two">
             <label for="telephone">Teléfono</label>
-            <input type="tel" id="telephone" name="telephone" class="input" placeholder="Ej: +34 123456789" autocomplete="tel" />
+            <input type="tel" id="telephone" name="telephone" class="input" placeholder="Ej: +34 123456789" autocomplete="tel"/>
           </div>
         </div>
     
         <label for="comments">Mensaje <i class="fa-solid fa-asterisk"></i></label>
-        <textarea id="comments" name="comments" class="text-area" placeholder="¿Qué necesitas?" rows="7" cols="80" required></textarea>
+        <textarea id="comments" name="comments" class="text-area" placeholder="¿Qué necesitas?" rows="7" cols="80"></textarea>
     
         <input type="submit" value="Enviar" class="submit" />
       </form>
