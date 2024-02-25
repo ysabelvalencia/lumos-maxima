@@ -47,7 +47,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, 50%) rotate(45deg);
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .description {
@@ -189,8 +189,8 @@
     }
 
     &__names {
-      font-family: 'Matisan', sans-serif;
-      color: #516904;
+      font-family: var(--font-family-Matisan);
+      color: var(--color-tittle);
       font-size: 3rem;
       line-height: 4.5rem;
       font-weight: 400;
@@ -224,15 +224,15 @@
 
   &__icon {
     text-decoration: none;
-    color: #516904;
+    color: var(--color-tittle);
 
     &::after {
       content: '·';
-      color: #516904;
+      color: var(--color-tittle);
     }
 
     &:hover {
-      color: #919109;
+      color: var(--color-subtitle);
     }
 
     &--blank {

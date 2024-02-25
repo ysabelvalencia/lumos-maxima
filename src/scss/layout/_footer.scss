@@ -77,7 +77,7 @@
     text-transform: uppercase;
     font-size: 1.4rem;
     line-height: 2rem;
-    color: #54585a;
+    color: var(--color-parraf);
     opacity: 0.75;
     margin: 2rem 0 2rem 0;
     display: flex;
@@ -96,12 +96,12 @@
 
     &__link {
       text-decoration: none;
-      color: #516904;
+      color: var(--color-tittle);
       position: relative;
       &:after {
         content: '';
         position: absolute;
-        background-color: #516904;
+        background-color: var(--color-tittle);
         height: 0.2rem;
         bottom: -0.4rem;
         width: 0;

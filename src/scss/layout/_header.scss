@@ -17,7 +17,7 @@
 }
 
 .title {
-  background: linear-gradient(to bottom, #919109, #273202);
+  background: var(--color-gradient);
   height: 6rem;
   width: 100%;
   opacity: 95%;
@@ -28,7 +28,7 @@
   z-index: 100;
   color: white;
   font-weight: 500;
-  font-family: 'October', sans-serif;
+  font-family: var(--font-family-October);
   font-size: 3rem;
   word-spacing: 1.5rem;
   cursor: pointer;
@@ -60,13 +60,13 @@
   position: fixed;
   margin-top: 6rem;
   font-family: var(--font-family-Rubik);
-  background-color: #919109;
+  background-color: var(--color-subtitle);
   z-index: 2;
   opacity: 95%;
   align-items: center;
   padding-right: 1.5rem;
   @media (min-width: 768px) {
-    background: linear-gradient(to bottom, #919109, #273202);
+    background: var(--color-gradient);
     height: 6rem;
     transform: translateY(-6rem);
     padding-right: 4rem;
@@ -92,7 +92,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-white);
   width: 29rem;
   height: 8rem;
   position: sticky;
@@ -102,7 +102,7 @@
   font-family: var(--font-family-OpenSans);
   font-size: 1.8rem;
   @media (min-width: 768px) {
-    background-color: rgb(33, 33, 33);
+    background-color: #212121;
     transform: translateY(0rem);
     width: 45rem;
     height: 8rem;
@@ -112,7 +112,7 @@
     top: 90%;
   }
   &__text {
-    color: #919109;
+    color: var(--color-subtitle);
     width: 26rem;
     height: 5rem;
     font-weight: 600;
@@ -127,12 +127,12 @@
 .link {
   text-decoration: none;
   position: relative;
-  color: white;
+  color: var(--color-white);
 
   &:after {
     content: '';
     position: absolute;
-    background-color: white;
+    background-color: var(--color-white);
     height: 0.2rem;
     bottom: -0.4rem;
     width: 0;
