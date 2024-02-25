@@ -128,19 +128,21 @@
   text-decoration: none;
   position: relative;
   color: var(--color-white);
+  cursor: pointer;
+  touch-action: manipulation;
+}
 
-  &:after {
-    content: '';
-    position: absolute;
-    background-color: var(--color-white);
-    height: 0.2rem;
-    bottom: -0.4rem;
-    width: 0;
-    left: 0;
-    transition: 0.3s;
-  }
+.link:after {
+  content: '';
+  position: absolute;
+  background-color: var(--color-white);
+  height: 0.2rem;
+  bottom: -0.4rem;
+  width: 0;
+  left: 0;
+  transition: 0.3s;
+}
 
-  &:hover:after {
-    width: 100%;
-  }
+.link:hover:after {
+  width: 100%;
 }
